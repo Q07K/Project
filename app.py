@@ -34,7 +34,7 @@ side_1.file_uploader(
     accept_multiple_files=False,
     key='data',
     label_visibility='hidden',
-    type='txt',
+    # type='txt',
     on_change=load_dataframe,
 )
 
